@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Calculadora</title>
+<script src = "CalculadoraEspecializada.js"> </script>
+<link rel="stylesheet" type="text/css" href="CalculadoraEspecializada.css" />
+</head>
+
+<body> 
+   <main>
+<section>
+  <h2>Calculadora</h2>
+  <header>
+    <form>
+      <label for="outputAlimentos">Alimentos</label>
+      <textarea id="outputAlimentos" name="outputAlimentos" rows="5" ></textarea>
+    </form>
+
+    <form>
+      <label for="outputEjercicios">Ejercicios</label>
+      <textarea id="outputEjercicios" name="outputEjercicios" rows="5" ></textarea>
+    </form>
+
+    <form>
+      <label for = "Calorias" >Calorías</label>
+      <input id = "Calorias" type="text" name="Actual" />
+      <label for = "Balance" > Calorías(k)  total</label>
+      <input id ="Balance" type="text" name = "Balance de calorias totales"/>
+    </form>
+  </header>
+
+
+  <form>
+    
+    <input type="button" value="Alimento" onClick = "calculadora.addAlimento()">
+    <input type="button" value="Ejercicio" onClick = "calculadora.addEjercicio()">
+    <input type="button" value="Número" onClick = "calculadora.toggleNumero()">
+    <input type="button" value="1" onClick = "calculadora.add(1)">
+
+    <input type="button" value="2" onClick = "calculadora.add(2)">
+
+    <input type="button" value="3" onClick = "calculadora.add(3)">
+    
+    
+    <input type="button" value="4" onClick = "calculadora.add(4)">
+
+    <input type="button" value="5" onClick = "calculadora.add(5)">
+
+    <input type="button" value="6" onClick = "calculadora.add(6)">
+    
+   
+    <input type="button" value="7" onClick = "calculadora.add(7)">
+
+    <input type="button" value="8" onClick = "calculadora.add(8)">
+    <input type="button" value="9" onClick = "calculadora.add(9)">
+ 
+    <input type="button" value="0" onClick = "calculadora.add(0)">
+    <input type="button" value="." onClick = "calculadora.add('.')">
+    <input type="button" value="+" onClick = "calculadora.sumar()">
+    <input type="button" value="-" onClick = "calculadora.restar()">
+    <input type="button" value="Borrar" onClick = "calculadora.remove()">
+    <input type="button" value="*" onClick = "calculadora.multiplicar()">
+    <input type="button" value="/" onClick = "calculadora.dividir()">
+    <input type="button" value="Enter" onClick = "calculadora.enter()">
+    <input type="button" value="^" onClick = "calculadora.toggle()">
+    <input type="button" value="Sin" onClick = "calculadora.sin()">
+    <input type="button" value="Cos" onClick = "calculadora.cos()">
+    <input type="button" value="Tan" onClick = "calculadora.tan()">
+    <input type="button" value="IMC" onClick = "calculadora.imc()">
+    <input type="button" value="Calorias" onClick = "calculadora.calorias()">
+  </form>
+ 
+</section>
+</main>
+</body>
+
+</html>
+

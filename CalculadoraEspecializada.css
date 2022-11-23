@@ -18,7 +18,7 @@ body section head input[ type = "text"]{
     align-self: center;
     align-content: center;
     background-color: aqua;
-    color: blue;
+    color: black;
 
 }
 body section  form  [type = "button"]{
@@ -32,6 +32,7 @@ body main form{
     align-items: center;
     align-self: center;
     background-color: aqua;
+    color: black;
     align-content: center;
     padding-left: 3em;
     padding-right: 3em;
@@ -54,12 +55,14 @@ section{
     padding-right: 1em;
     padding-bottom: 3em;
     padding-top: 3em;
-    border-radius: 3em;
     
 }
 
 form input[type = "button"]{
     height: 3.7em;
     width: 3.7em;
-    border-radius: 1em;
+}
+h2{
+    background-color: blue;
+    color: white;
 }
