@@ -1,0 +1,65 @@
+
+body{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+}
+body head form {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    align-self: center;
+
+}
+body section head input[ type = "text"]{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    background-color: aqua;
+    color: blue;
+
+}
+body section  form  [type = "button"]{
+    background-color: green;
+    color: white;
+    width: 5em;
+}
+body main form{
+    display: grid;
+    grid-template-columns: 4.7em 4.7em  3em;
+    align-items: center;
+    align-self: center;
+    background-color: aqua;
+    align-content: center;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 1em;
+    border-radius: 1em;
+}
+body aside form input[type = "button"]{
+    display: grid;
+    grid-template-columns: auto ;
+}
+section{
+    margin-left: 30em;
+    margin-right: 30em;
+    background-color: blue;
+    color: white;
+    align-self: center;
+    align-items: center;
+    border-radius: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 3em;
+    padding-top: 3em;
+    border-radius: 3em;
+    
+}
+
+form input[type = "button"]{
+    height: 3.7em;
+    width: 3.7em;
+    border-radius: 1em;
+}
